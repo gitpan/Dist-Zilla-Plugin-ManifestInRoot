@@ -25,7 +25,7 @@ no_index:
 provides:
   Dist::Zilla::Plugin::ManifestInRoot:
     file: lib/Dist/Zilla/Plugin/ManifestInRoot.pm
-    version: v0.1.2
+    version: v0.1.3
 recommends:
   App::cpanminus: 1.6005
 requires:
@@ -34,10 +34,9 @@ requires:
   Moose: 2.0802
   Moose::Autobox: 0.12
   namespace::autoclean: 0.13
-  perl: 5.008008
   version: 0.88
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-ManifestInRoot
   homepage: http://www.roxsoft.co.uk
   license: http://dev.perl.org/licenses/
-version: v0.1.2
+version: v0.1.3

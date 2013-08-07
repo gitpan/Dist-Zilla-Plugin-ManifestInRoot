@@ -1,0 +1,25 @@
+Build.PL
+Changes
+inc/Bob.pm
+inc/CPANTesting.pm
+inc/SubClass.pm
+lib/Dist/Zilla/Plugin/ManifestInRoot.pm
+LICENSE
+MANIFEST			This list of files
+META.json
+META.yml
+README
+t/01always_pass.t
+t/02pod.t
+t/03podcoverage.t
+t/04critic.t
+t/05kwalitee.t
+t/06yaml.t
+t/07podspelling.t
+t/10test_script.t
+tmp/OBEj40S9qn/build/Dist/Zilla/Plugin/ManifestInRoot.pm
+'tmp/OBEj40S9qn/build/file with spaces.txt'
+tmp/OBEj40S9qn/source/Dist/Zilla/Plugin/ManifestInRoot.pm
+'tmp/OBEj40S9qn/source/file with spaces.txt'
+tmp/OBEj40S9qn/source/MANIFEST
+SIGNATURE    Added here by Module::Build

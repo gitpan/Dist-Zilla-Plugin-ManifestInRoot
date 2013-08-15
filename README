@@ -7,7 +7,7 @@ Synopsis
        [ManifestInRoot]
 
 Version
-    This documents version v0.1.$Rev: 3 $ of
+    This documents version v0.2.$Rev: 1 $ of
     Dist::Zilla::Plugin::ManifestInRoot
 
 Description
@@ -18,8 +18,14 @@ Configuration and Environment
     None
 
 Subroutines/Methods
-  setup_installer
-    The code had to go somewhere
+  after_build
+    Copy the MANIFEST file from the build directory to the project root
+
+  before_build
+    Delete the existing MANIFEST file
+
+  gather_files
+    Create the content providing callback
 
 Diagnostics
     None

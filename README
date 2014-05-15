@@ -1,56 +1,75 @@
 Name
+
     Dist::Zilla::Plugin::ManifestInRoot - Puts the MANIFEST file in the
     project root
 
 Synopsis
+
        # In your dist.ini
        [ManifestInRoot]
 
 Version
-    This documents version v0.2.$Rev: 1 $ of
+
+    This documents version v0.3.$Rev: 2 $ of
     Dist::Zilla::Plugin::ManifestInRoot
 
 Description
+
     Puts the MANIFEST file in the project root so that it can be used by
-    other programs, e.g. "module_provision update_version 0.1 0.2"
+    other programs, e.g. module_provision update_version 0.1 0.2
 
 Configuration and Environment
+
     None
 
 Subroutines/Methods
-  after_build
+
+ after_build
+
     Copy the MANIFEST file from the build directory to the project root
 
-  before_build
+ before_build
+
     Delete the existing MANIFEST file
 
-  gather_files
+ gather_files
+
     Create the content providing callback
 
 Diagnostics
+
     None
 
 Dependencies
+
     Dist::Zilla::Role::InstallTool
+
     File::Slurp
+
     Moose
+
     Moose::Autobox
 
 Incompatibilities
+
     There are no known incompatibilities in this module
 
 Bugs and Limitations
+
     There are no known bugs in this module. Please report problems to
-    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-ManifestInRoo
-    t. Patches are welcome
+    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-ManifestInRo
+    ot. Patches are welcome
 
 Acknowledgements
+
     Larry Wall - For the Perl programming language
 
 Author
-    Peter Flanigan, "<pjfl@cpan.org>"
+
+    Peter Flanigan, <pjfl@cpan.org>
 
 License and Copyright
+
     Copyright (c) 2013 Peter Flanigan. All rights reserved
 
     This program is free software; you can redistribute it and/or modify it

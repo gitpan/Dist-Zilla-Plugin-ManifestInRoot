@@ -50,7 +50,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::ManifestInRoot" : {
          "file" : "lib/Dist/Zilla/Plugin/ManifestInRoot.pm",
-         "version" : "v0.3.2"
+         "version" : "v0.4.1"
       }
    },
    "release_status" : "stable",
@@ -64,6 +64,6 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.3.2"
+   "version" : "0.4.1"
 }
 

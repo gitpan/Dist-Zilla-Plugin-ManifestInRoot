@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,29 +14,29 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 47b11143f645ce220a9f58633cc167697d5fb14c Build.PL
-SHA1 e066d5c9427dc6e1b3e29998782a9ede744e0812 Changes
-SHA1 2b3ccb88f716f614f8af721a1c69dba0bcdbbb32 LICENSE
+SHA1 e860b731a8f33e743c903f44ddb835a08870a7df Build.PL
+SHA1 6de5696013ee3d8255ad588842910cef60d6ab1c Changes
+SHA1 ef384398168a024221a4af017109f5873b388908 LICENSE
 SHA1 6fa586227d21acb28e023edc083f518ed2f86d50 MANIFEST
-SHA1 6f4b6c33985299de693bd29985c722c1c815a416 META.json
-SHA1 ecbfae1dc7d1a086d7db33845e40dd3ee9bd4361 META.yml
-SHA1 1e6f016aef86a600b62b8f638cbb8a0b6800e3ce README
-SHA1 6654228b1c023900aabc93a21624061d10110b8f lib/Dist/Zilla/Plugin/ManifestInRoot.pm
+SHA1 011dfc6764c5c7fe051a2508006a6a2c8e2a145e META.json
+SHA1 f7886df31e517ee5621bebbe32e89a5058e5a789 META.yml
+SHA1 fcf32ff23cffdcc05d4532287965e8c58ffb13af README
+SHA1 13fb41c006d989a4301ab6c2cc90b4c7b96faebc lib/Dist/Zilla/Plugin/ManifestInRoot.pm
 SHA1 433d5591629e03faaef4738c70ea173329e0f1eb t/01always_pass.t
 SHA1 427b1a5820b3d6bc52044b99c999e458eba7d6dc t/02pod.t
 SHA1 905a84ed4a01bba172b682620964560f04ff93d2 t/03podcoverage.t
 SHA1 c1c29d14c961c30f0ea1ff84dd3b6acb7f4d3e81 t/05kwalitee.t
 SHA1 8b1ef2c2000dda84911be6a6bf76d4de88a4d4dc t/06yaml.t
 SHA1 542d1d53fee7d27224f7b80bc6ce5bd07e1b2606 t/07podspelling.t
-SHA1 0e37abaf94b14f1c868b3e60cecfb27232a4f011 t/10test_script.t
+SHA1 0d3104981b097f604986016004f712accb66ab04 t/10test_script.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQEcBAEBAgAGBQJTd0xAAAoJEK492j4Im1BpFeUH/0IGEh6tnJWCQlH24+8ry45N
-GrcbE3nJTTJDy1dwzDvPxEumE/SBJ0rLfvOyu+m2krtYJzewKLwW60/rpGINtZpa
-T9ul/W9Ak4mnh+qruIF6N2r1QwtUvODjLJ7S87QH2Mgf4Z5fHbmFJ6JIbX4qCqxI
-CIWDYTd+E1q6nkRS4Q9XjDjvIaMOfDLcAYpBdfPP8+kpckPM3BvSHithE7GRWYMe
-kNZ3dXtlD23MkWWCBhIxKbJcOdL58Vh/bILDMIT1zCzLjl/yMNz2Oc7/CnpjXeuK
-4Abmz+uB9+uZWAienIoCVdoV8kngEnJ1J6SdQ9bcJSSMWbQwcAQMOJOTxuh2Y7c=
-=lr02
+iQEcBAEBAgAGBQJT/L2aAAoJEK492j4Im1Bp7lYIALEdYh4RMMcc0ghaJ7svTUE7
+MYWEX2J+ycIdwJUc8+CbkbyuqHurwuj4evEfssaxlxyit8V3PPDpkKlmXCG1Htb/
+sUd8hGqode4ScAiYnXwizmBoKG3XxssZyoEEusDcUMbx/9x5rC5PGxH9K0pxpsM7
+FqQrZrA6qBa7TAm3LsEndxTunPNjXJUOMgzUpHVat4AA3wPCMQB4XcMhom6Lkddd
+PHzpkCqRbG1bWTZlCZjux5c6dShyhh5unpqRSyx370TNgkYJDatbMGnwOsc5g2fY
+uRaRoxFpSWnfaudHg1jKImebXItNLod9yVJk6+We5VX4d7z0FYVecQtfkxNYG4k=
+=ajSb
 -----END PGP SIGNATURE-----

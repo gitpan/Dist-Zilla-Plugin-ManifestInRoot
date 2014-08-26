@@ -4,7 +4,7 @@
       "Peter Flanigan, C<< <pjfl@cpan.org> >>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -50,7 +50,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::ManifestInRoot" : {
          "file" : "lib/Dist/Zilla/Plugin/ManifestInRoot.pm",
-         "version" : "v0.4.1"
+         "version" : "v0.5.1"
       }
    },
    "release_status" : "stable",
@@ -64,6 +64,6 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.4.1"
+   "version" : "0.5.1"
 }
 

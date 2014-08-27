@@ -10,7 +10,7 @@ Synopsis
 
 Version
 
-    This documents version v0.5.$Rev: 1 $ of
+    This documents version v0.6.$Rev: 1 $ of
     Dist::Zilla::Plugin::ManifestInRoot
 
 Description

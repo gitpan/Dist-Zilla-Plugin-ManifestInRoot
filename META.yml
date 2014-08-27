@@ -26,7 +26,7 @@ no_index:
 provides:
   Dist::Zilla::Plugin::ManifestInRoot:
     file: lib/Dist/Zilla/Plugin/ManifestInRoot.pm
-    version: v0.5.1
+    version: v0.6.1
 requires:
   Dist::Zilla: '4.300033'
   Moose: '2.0802'
@@ -38,4 +38,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-ManifestInRoot
   homepage: https://metacpan.org/author/PJFL
   license: http://dev.perl.org/licenses/
-version: 0.5.1
+version: 0.6.1
